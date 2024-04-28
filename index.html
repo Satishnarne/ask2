@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dallas Cars - Car Shopping</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    .product {
+      margin-bottom: 20px;
+      padding: 10px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    form {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dallas Cars</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="product">
+      <h2>Car 1</h2>
+      <img src="car1.jpg" alt="Car 1">
+      <p>Type: Sedan</p>
+      <p>Color: Silver</p>
+      <p>Model: ABC123</p>
+    </div>
+    <div class="product">
+      <h2>Car 2</h2>
+      <img src="car2.jpg" alt="Car 2">
+      <p>Type: SUV</p>
+      <p>Color: Red</p>
+      <p>Model: XYZ789</p>
+    </div>
+  </div>
+  <footer>
+    &copy; 2022 Dallas Cars
+  </footer>
+  <form>
+    <div class="container">
+      <h2>Contact Us</h2>
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" placeholder="Full Name" required>
+      <label for="contactNumber">Contact Number:</label>
+      <input type="tel" id="contactNumber" placeholder="Contact Number" required>
+      <label for="email">Email ID:</label>
+      <input type="email" id="email" placeholder="Email ID" required>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+  <script>
+    // Add JavaScript functionality here
+  </script>
+</body>
+</html>
